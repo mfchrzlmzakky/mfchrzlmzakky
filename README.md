@@ -1,29 +1,13 @@
-name: Generate Snake
+<!-- Ganti USERNAME dan NAMA KAMU -->
 
-on:
-  schedule:
-    - cron: "0 */12 * * *"   # update otomatis tiap 12 jam
-  workflow_dispatch:          # bisa dijalankan manual
-  push:
-    branches: [main]
+<div align="center">
 
-permissions:
-  contents: write
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&width=400&height=40&lines=Hai,+saya+Zakky+%F0%9F%91%8B" alt="typing"/>
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.mfchrzlmzakky }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/github-snake.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/github-snake-dark.svg">
+</picture>
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+</div>
