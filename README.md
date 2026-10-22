@@ -23,9 +23,9 @@
 <!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&width=400&height=40&lines=Hai,+saya+NAMA+KAMU+%F0%9F%91%8B" alt="typing"/> -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/bomberman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/bomberman-contribution-graph.svg">
-  <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/bomberman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/minesweeper-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/minesweeper-contribution-graph.svg">
+  <img alt="minesweeper contribution graph" src="https://raw.githubusercontent.com/mfchrzlmzakky/mfchrzlmzakky/output/minesweeper-contribution-graph.svg">
 </picture>
 
 </div>
